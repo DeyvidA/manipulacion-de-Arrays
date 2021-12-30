@@ -14,3 +14,15 @@ offtopic: el método includes() determina si una matriz incluye un determinado e
 Some retorna true si uno de los elementos del array cumple con la condicion que se le imponga
 
 Every retorna true solamente si todos los elementos del array cumplen con la condicion que se les imponga, pero si uno o mas de una no cumplel la condicion retorna false;
+
+includes busca dentro de un array que se encuentre el dato que le pasemos
+
+Join
+
+flat: aplana los arrays que hay dentro de arrays. de modo que quede como un solo super arrays.
+
+flatMap: aplana los arrays que hay dentro de arrays pero solo los puebe aplanar a 1 nivel 
+
+flat y flatMap son utiles cuando trabajamos con arrays detro de otros arrays.
+
+sort es mutable, es un metode que ordena un arreglo, sort evalua por medio del peso en las tablas asky(osea por el peso de los dato en los numeros binarios)
