@@ -2,7 +2,7 @@ const months = ['March', 'Jan', 'Feb', 'Dec'];
 months.sort();
 console.log(months);
 const numbers = [1, 30, 4, 21, 100000];
-numbers.sort((a,b) => b - a);
+numbers.sort((a,b) => a - b);
 console.log(numbers);
 const words = ['réservé', 'premier', 'communiqué', 'café', 'adieu', 'éclair', 'banana'];
 words.sort((a,b) => a.localeCompare(b));
@@ -33,3 +33,15 @@ const orders = [
   console.log(orders);
 
 //   reto hacer sort con fechas
+
+const array = [['🐸','🐱'],'🐹', ['🐯']]; 
+const rta = array.flat();
+console.log(rta)
+
+const array = ['🐸','🐱','🐹']
+const rta = array.findIndex(item => item === '🐸')
+console.log(rta)
+
+const array = ['a','bb..','ccc']
+const rta = array.map(item => item.length)
+console.log(rta)
