@@ -50,3 +50,9 @@ const data = [
   }, {});
   
   console.log(rta1);
+
+//   Reto Acumular por cantidad de en rangos
+//   Reduce Reloaded
+//   1-5 = 5 
+//   6-8 = 23
+//   9-10 = 5

@@ -10,3 +10,7 @@ Por lo tanto filter() es inmutable y el nuevo array creado solamente puede conte
 Pero nunca más coincidencias que el tamaño del array original.
 
 offtopic: el método includes() determina si una matriz incluye un determinado elemento, devuelve true o false según corresponda.
+
+Some retorna true si uno de los elementos del array cumple con la condicion que se le imponga
+
+Every retorna true solamente si todos los elementos del array cumplen con la condicion que se les imponga, pero si uno o mas de una no cumplel la condicion retorna false;
