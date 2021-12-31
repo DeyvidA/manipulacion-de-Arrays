@@ -1,0 +1,46 @@
+Just in time compiler 
+js -> v8 -> binary Code -> PC
+
+Que es v8?
+V8 es el motor de js que corre en el navegador de Chrome, cada navegador tiene su propio motor de JS pero V8  es el motor de js que mas a evolucionado y mejor ha ayudado al desarrollo de JS.
+Chrome, Opera y Edge corren V8.
+
+V8 nace de la necesidad de chrome para querer hacer que GoogleMaps corriera de manera fluida en  a web.
+
+Node corre con V8 en la parte del backEnd.
+
+
+Una vez el js empieza a correr genera un entorno local (window),
+
+Global Enviroment :
+    -Global Object
+    -This
+    -Outer Environment.
+
+Pasos de js:
+    1-Parser
+    2-AST( Abstract Syntax Tree)
+    3-Interpreter
+        a- Profier (Monitor)
+        b- compiler.
+        c- Hoisting
+        
+        = Optimized Code
+    4- ByteCode.
+
+Memory Heap = Repisa para almacenar datos, donde guardamos los valores de nuestras variabl y nuestras constantes, en donde guardamos los valores de nuestras variables y nuestras funciones
+
+call Stack: pila para realizar tareas
+JS solo hace una tarea a la vez.
+
+Garbage Collection: En el memory heap, Mark, marca los valores que son de importancia, sheep elimina los datos innecesario.
+
+El hecho que JS sea Synchronous hace que el lenguaje sea muy lento;
+
+callBack queue es cuando una orden sincrona 
+
+
+stack overflow. es cuando el call Stack supera su limite de memoria
+se genera cuande el call stack le llena completamente, esto pasa cunod se genero a se trabaja con bucles infintos 
+
+Mark- Sweep: es el "Sistema o algoritmo" que se encarga de limpiar los espacios en memoria que ya no se utilizan 
