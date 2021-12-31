@@ -44,3 +44,5 @@ stack overflow. es cuando el call Stack supera su limite de memoria
 se genera cuande el call stack le llena completamente, esto pasa cunod se genero a se trabaja con bucles infintos 
 
 Mark- Sweep: es el "Sistema o algoritmo" que se encarga de limpiar los espacios en memoria que ya no se utilizan 
+
+eventLoop: un watcher o un observador que espera que el calba queue este listo
